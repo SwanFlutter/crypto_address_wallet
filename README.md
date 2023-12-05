@@ -1,7 +1,8 @@
 This Crypto Address Wallet class is a widget that displays a cryptocurrency address. It takes a number of parameters as input that allow to set its display and various properties.
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+![Capture111111](https://github.com/SwanFlutter/crypto_address_wallet/assets/151648897/7b065aa9-1673-4722-be49-320156420b89)
+
 
 ## Getting started
 
