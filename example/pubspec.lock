@@ -41,13 +41,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.18.0"
-  crypto_address_wallet:
-    dependency: "direct main"
-    description:
-      path: "G:\\Android\\Pakege\\crypto_address_wallet"
-      relative: false
-    source: path
-    version: "1.0.0"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -192,5 +185,4 @@ packages:
     source: hosted
     version: "0.3.0"
 sdks:
-  dart: ">=3.2.2 <4.0.0"
-  flutter: ">=1.17.0"
+  dart: ">=3.2.0-194.0.dev <4.0.0"

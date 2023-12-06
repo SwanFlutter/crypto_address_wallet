@@ -1,4 +1,4 @@
-import 'package:crypto_address_wallet/crypto_address_wallet.dart';
+//import 'package:crypto_address_wallet/crypto_address_wallet.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -7,7 +7,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
 
   @override
   Widget build(BuildContext context) {
@@ -23,33 +22,30 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key,});
-
-
+  const MyHomePage({
+    super.key,
+  });
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-
         title: Text("example crypto_address_wallet"),
       ),
       body: const Center(
-
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-           CryptoAddressWallet(
+            /* CryptoAddressWallet(
              hash: 'xcdscscsfsdfsdfdsfsfsdsddcvdsfsfds',
              isShowCopyIcon: true,
-           )
+           )*/
           ],
         ),
       ),
